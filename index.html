@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aryan's Personal Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="letter">
+      <!-- Top Row -->
+    <header class="top-row">
+      <img src="aryan.jpg" alt="Aryan's Photo" class="profile-photo">
+      <div class="intro-text">
+        <h1>Yo, I'm Aryan!</h1>
+        <p>Builder, thinker, spicy food enthusiast 🌶️</p>
+        <p><a href="https://linkedin.com/in/aryansid">LinkedIn</a> | <a href="https://twitter.com/Ar_boian">Twitter</a></p>
+      </div>
+    </header>
+
+    <!-- Middle Row -->
+    <div class="middle-row">
+      <p>I'm a <b>Stanford</b>🌲student, where my academic path intertwines <b>AI</b> with <b>systems</b>. 
+        
+        I'm building <a href="https://www.memarylabs.com/about" title="memARy website">memARy</a>, an R&D lab leveraging AI and AR to tackle cognitive issues. We're crafting accessible, state-of-the-art <b>smart glasses for the blind </b>👓
+        I'm also a <a href="https://med.stanford.edu/pacresearch/people.html?tab=proxy" title="PAC">researcher</a> at <b>SAIL</b>, where I explore AI applications in healthcare under Dr Fei Fei Li. I'm the first intern at <a href="https://kick.co/" title="Kick">Kick</a>, an AI-driven tax solution venture 💸 backed by <b>OpenAI</b>.
+      </p>
+    </div>
+
+    <div class="projects-container">
+      <h2 class="projects-subheader">Other Things I've Built</h2>
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Thought To Image: Using EEG signals to classify images <a href="#">→</a></h3>
+        <p>Abstract: </p>
+      </div>
+    
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>GAN Inspired LLMs for Spear Phishing <a href="#">→</a></h3>
+        <p>Abstract: Spear phishing’s menace is exacerbated by the manual
+          and template-reliant methods for crafting such
+          emails—until now. Current integration of
+          Large Language Models (LLMs) into spear phishing
+          still demands manual prompting,
+          a bottleneck for scalability and adaptability. 
+          Our study breaks new ground by introducing
+          a self-improving system that leverages LLMs to autonomously
+          learn and generate the prompts required
+          for crafting personalized phishing emails. This selfprompting
+          mechanism, inspired by Generative Adversarial
+          Network (GAN) architectures,
+          marks a departure from the manual prompt
+          engineering that plagues existing models. Our approach
+          automates the iterative refinement of prompts, enhancing
+          the relevance and efficacy of the phishing content.
+          By instituting novel performance metrics, we chart a
+          new course in automated phishing endeavors, with our
+          manual evaluations pointing towards unprecedented success
+          rates. This paper delves into our self-prompting
+          framework, its evaluation, and its potential to redefine
+          the landscape of cyber threats.</p>
+      </div>
+      
+      <div class="project-card">
+        <h3>Navigation app for blind people<a href="#">→</a></h3>
+        <p></p>
+      </div>
+
+      <div class="project-card">
+        <h3>Diffusion models for human pose estimation<a href="#">→</a></h3>
+        <p></p>
+      </div>
+
+      <div class="project-card">
+        <h3>Crescendo: A marketplace for renting second hand instruments<a href="#">→</a></h3>
+        <p></p>
+      </div>
+
+    </div>          
+  </div>
+  <script>
+    // Get all dropdown headers and add a click event listener to them
+    var dropdowns = document.getElementsByClassName("dropdown-header");
+    var i;
+    
+    for (i = 0; i < dropdowns.length; i++) {
+      dropdowns[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+           
+</body>
+</html>
 
