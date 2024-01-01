@@ -81,13 +81,13 @@ li::before {
 
 .project-card {
   background: #fff;
-  padding: 15px;
-  margin-bottom: 10px; /* Space between project cards */
+  padding: 10px;
+  margin-bottom: 5px; /* Space between project cards */
   border-radius: 8px; /* Optional: for rounded corners */
 }
 
 .project-card h3 {
-  font-size: 1.25em;
+  font-size: 1em;
   color: #007bff;
   margin-bottom: 5px;
 }
@@ -100,7 +100,7 @@ li::before {
 
 .project-card p {
   color: #666; /* Lighter text color for the description */
-  font-size: 0.95em;
+  font-size: 0.85em;
   margin-bottom: 15px;
 }
 
@@ -115,6 +115,13 @@ li::before {
   color: #333;
   border: 1px solid #dcdcdc; /* Optional: adds a border to the tag */
 }
+
+.projects-subheader {
+  font-size: 1.5em; /* Adjusted down from 1.75em to better scale with the other elements */
+  color: #333;
+  margin-bottom: 20px; /* You can adjust this as needed to manage space */
+}
+
 
 /* Add hover effects or other interactive styles as needed */
 
